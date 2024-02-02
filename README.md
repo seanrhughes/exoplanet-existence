@@ -18,7 +18,7 @@ A machine learning model utilizing node regression to predict the existence of u
 Exoplanet detection is a critical aspect of modern astronomy / astrophysics. Currently, there are around 5500 confirmed exoplanets, and around 7000 candidate exoplanets.
 The main method used to discover exoplanets is via transit of the planet across the star, however this occurence is extremely unlikely, as it requires the orbital plane
 of the planetary system to be nearly edge-on as observed by telescopes in the solar system. Furthermore, the transit of a planet across a star takes a very small 
-fraction of time compared to the period of the planet. Consequently, even if an eligable planetary system is being observered, it is unlikely a transit will be detected, let alone 
+fraction of time compared to the period of the planet. Consequently, even if an eligible planetary system is being observered, it is unlikely a transit will be detected, let alone 
 multiple transits at regular intervals, which is required to deduce exoplanet existence. Although transit accounts for the large majority of exoplanet discoveries,
 these limiations result in nearly all exoplanets in surrounding planetary systems to go undiscovered. This project aims to predict the existence, and if so the number,
 of exoplanets in those systems.
@@ -87,7 +87,7 @@ After the model is trained, we get a `Mean Squared Error` test score of `0.65`, 
 
 ***On average, the model's error is less than a half of a planet per prediction.***<br><br>
 
-For example, while testing on stars with known planets, the model correctlty predicts many systems, including:
+For example, while testing on stars with known planets, the model correctly predicts many systems, including:
 
 <table>
   <tr>
@@ -120,7 +120,7 @@ Where this model's results really become interesting, is when we use it to predi
 ## Predicting the Existence of Undiscovered Exoplanets
 
 Let's take an example star, say Arcturus, a star very visible to the naked eye. This star is a relatively old red giant, and
-the existence of any exoplanets orbiting Betelgeuse is currently unknown.<br><br>
+the existence of any exoplanets orbiting Arcturus is currently unknown.<br><br>
 If we enter Arcturus into the model, we get:
 
 <table>
